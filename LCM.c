@@ -9,7 +9,7 @@ int main()
     printf("Enter two number\n");
     scanf("%d%d", &a, &b);
 
-    for (int i = a < b ? a : b; i <= a * b; i++)
+    for (int i = a > b ? a : b; i <= a * b; i++)
     {
         if (i % a == 0 && i % b == 0)
         {
